@@ -13,7 +13,7 @@ import argparse
 
 
 main_path = os.getcwd()
-models_path = os.path.join(main_path, 'saved_models/default/')
+models_path = os.path.join(main_path, 'Persian-MultiSpeaker-Tacotron2/saved_models/default/')
 
 def wavRNN_infer(text, ref_wav_path, test_name):
     encoder.load_model(os.path.join(models_path, 'encoder.pt'))
